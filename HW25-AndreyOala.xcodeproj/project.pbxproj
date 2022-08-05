@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0188178CE163224A1E987C4A /* Pods_HW25_AndreyOala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE237E3A00FDFBCE20398D7 /* Pods_HW25_AndreyOala.framework */; };
+		5509B3CE289D4789006BE63B /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5509B3CD289D4789006BE63B /* CardModel.swift */; };
+		5509B3D1289D4919006BE63B /* DisplayableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5509B3D0289D4919006BE63B /* DisplayableProtocol.swift */; };
+		5509B3D3289D4CA1006BE63B /* CardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5509B3D2289D4CA1006BE63B /* CardsModel.swift */; };
+		5509B3D5289D4D85006BE63B /* MTGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5509B3D4289D4D85006BE63B /* MTGView.swift */; };
+		5509B3D7289D4DA5006BE63B /* MTGTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5509B3D6289D4DA5006BE63B /* MTGTableViewCell.swift */; };
+		5509B3D9289D4E16006BE63B /* DetailMTGCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5509B3D8289D4E16006BE63B /* DetailMTGCardView.swift */; };
 		559BE03F289D3DC5000376DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BE03E289D3DC5000376DE /* AppDelegate.swift */; };
 		559BE041289D3DC5000376DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BE040289D3DC5000376DE /* SceneDelegate.swift */; };
-		559BE043289D3DC5000376DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BE042289D3DC5000376DE /* ViewController.swift */; };
 		559BE046289D3DC5000376DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559BE044289D3DC5000376DE /* Main.storyboard */; };
 		559BE048289D3DC5000376DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559BE047289D3DC5000376DE /* Assets.xcassets */; };
 		559BE04B289D3DC5000376DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559BE049289D3DC5000376DE /* LaunchScreen.storyboard */; };
+		55AE8EED289D5716006D298F /* MTGController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AE8EEC289D5716006D298F /* MTGController.swift */; };
+		55AE8EEF289D5725006D298F /* DetailMTGController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AE8EEE289D5725006D298F /* DetailMTGController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5509B3CD289D4789006BE63B /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		5509B3D0289D4919006BE63B /* DisplayableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayableProtocol.swift; sourceTree = "<group>"; };
+		5509B3D2289D4CA1006BE63B /* CardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsModel.swift; sourceTree = "<group>"; };
+		5509B3D4289D4D85006BE63B /* MTGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGView.swift; sourceTree = "<group>"; };
+		5509B3D6289D4DA5006BE63B /* MTGTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGTableViewCell.swift; sourceTree = "<group>"; };
+		5509B3D8289D4E16006BE63B /* DetailMTGCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMTGCardView.swift; sourceTree = "<group>"; };
 		559BE03B289D3DC5000376DE /* HW25-AndreyOala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW25-AndreyOala.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		559BE03E289D3DC5000376DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		559BE040289D3DC5000376DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		559BE042289D3DC5000376DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		559BE045289D3DC5000376DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		559BE047289D3DC5000376DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		559BE04A289D3DC5000376DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		559BE04C289D3DC5000376DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AE8EEC289D5716006D298F /* MTGController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGController.swift; sourceTree = "<group>"; };
+		55AE8EEE289D5725006D298F /* DetailMTGController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMTGController.swift; sourceTree = "<group>"; };
+		9FCE8D4DB1C2F16739A656EE /* Pods-HW25-AndreyOala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW25-AndreyOala.debug.xcconfig"; path = "Target Support Files/Pods-HW25-AndreyOala/Pods-HW25-AndreyOala.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE237E3A00FDFBCE20398D7 /* Pods_HW25_AndreyOala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HW25_AndreyOala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0564213F3E6F4DDFB7E7FC /* Pods-HW25-AndreyOala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW25-AndreyOala.release.xcconfig"; path = "Target Support Files/Pods-HW25-AndreyOala/Pods-HW25-AndreyOala.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0188178CE163224A1E987C4A /* Pods_HW25_AndreyOala.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5509B3C5289D4643006BE63B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5509B3C8289D465E006BE63B /* Scenes */,
+				5509B3C7289D4658006BE63B /* App */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5509B3C6289D464C006BE63B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				559BE047289D3DC5000376DE /* Assets.xcassets */,
+				559BE049289D3DC5000376DE /* LaunchScreen.storyboard */,
+				559BE04C289D3DC5000376DE /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5509B3C7289D4658006BE63B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				559BE03E289D3DC5000376DE /* AppDelegate.swift */,
+				559BE040289D3DC5000376DE /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5509B3C8289D465E006BE63B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5509B3CF289D4905006BE63B /* Protocol */,
+				5509B3CC289D4721006BE63B /* Model */,
+				5509B3CB289D4711006BE63B /* View */,
+				5509B3CA289D46BC006BE63B /* Controller */,
+				559BE044289D3DC5000376DE /* Main.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5509B3CA289D46BC006BE63B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55AE8EEC289D5716006D298F /* MTGController.swift */,
+				55AE8EEE289D5725006D298F /* DetailMTGController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5509B3CB289D4711006BE63B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5509B3D4289D4D85006BE63B /* MTGView.swift */,
+				5509B3D6289D4DA5006BE63B /* MTGTableViewCell.swift */,
+				5509B3D8289D4E16006BE63B /* DetailMTGCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5509B3CC289D4721006BE63B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5509B3CD289D4789006BE63B /* CardModel.swift */,
+				5509B3D2289D4CA1006BE63B /* CardsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5509B3CF289D4905006BE63B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5509B3D0289D4919006BE63B /* DisplayableProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		559BE032289D3DC4000376DE = {
 			isa = PBXGroup;
 			children = (
 				559BE03D289D3DC5000376DE /* HW25-AndreyOala */,
 				559BE03C289D3DC5000376DE /* Products */,
+				67593AD935B36568DDF29D78 /* Pods */,
+				AAEF9B9850ED28C291F47B1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +153,27 @@
 		559BE03D289D3DC5000376DE /* HW25-AndreyOala */ = {
 			isa = PBXGroup;
 			children = (
-				559BE03E289D3DC5000376DE /* AppDelegate.swift */,
-				559BE040289D3DC5000376DE /* SceneDelegate.swift */,
-				559BE042289D3DC5000376DE /* ViewController.swift */,
-				559BE044289D3DC5000376DE /* Main.storyboard */,
-				559BE047289D3DC5000376DE /* Assets.xcassets */,
-				559BE049289D3DC5000376DE /* LaunchScreen.storyboard */,
-				559BE04C289D3DC5000376DE /* Info.plist */,
+				5509B3C6289D464C006BE63B /* Resources */,
+				5509B3C5289D4643006BE63B /* Sources */,
 			);
 			path = "HW25-AndreyOala";
+			sourceTree = "<group>";
+		};
+		67593AD935B36568DDF29D78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FCE8D4DB1C2F16739A656EE /* Pods-HW25-AndreyOala.debug.xcconfig */,
+				BD0564213F3E6F4DDFB7E7FC /* Pods-HW25-AndreyOala.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AAEF9B9850ED28C291F47B1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCE237E3A00FDFBCE20398D7 /* Pods_HW25_AndreyOala.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 559BE04F289D3DC5000376DE /* Build configuration list for PBXNativeTarget "HW25-AndreyOala" */;
 			buildPhases = (
+				4B58AA466A723443AD30ACF5 /* [CP] Check Pods Manifest.lock */,
 				559BE037289D3DC4000376DE /* Sources */,
 				559BE038289D3DC4000376DE /* Frameworks */,
 				559BE039289D3DC4000376DE /* Resources */,
+				8AE66CF3EED3C2D238610847 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +244,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B58AA466A723443AD30ACF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HW25-AndreyOala-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE66CF3EED3C2D238610847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HW25-AndreyOala/Pods-HW25-AndreyOala-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HW25-AndreyOala/Pods-HW25-AndreyOala-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HW25-AndreyOala/Pods-HW25-AndreyOala-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		559BE037289D3DC4000376DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				559BE043289D3DC5000376DE /* ViewController.swift in Sources */,
+				5509B3D5289D4D85006BE63B /* MTGView.swift in Sources */,
+				5509B3D1289D4919006BE63B /* DisplayableProtocol.swift in Sources */,
+				5509B3D9289D4E16006BE63B /* DetailMTGCardView.swift in Sources */,
+				5509B3CE289D4789006BE63B /* CardModel.swift in Sources */,
+				5509B3D7289D4DA5006BE63B /* MTGTableViewCell.swift in Sources */,
+				55AE8EED289D5716006D298F /* MTGController.swift in Sources */,
+				5509B3D3289D4CA1006BE63B /* CardsModel.swift in Sources */,
+				55AE8EEF289D5725006D298F /* DetailMTGController.swift in Sources */,
 				559BE03F289D3DC5000376DE /* AppDelegate.swift in Sources */,
 				559BE041289D3DC5000376DE /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +442,7 @@
 		};
 		559BE050289D3DC5000376DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCE8D4DB1C2F16739A656EE /* Pods-HW25-AndreyOala.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +471,7 @@
 		};
 		559BE051289D3DC5000376DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0564213F3E6F4DDFB7E7FC /* Pods-HW25-AndreyOala.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
