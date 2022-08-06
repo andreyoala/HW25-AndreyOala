@@ -16,7 +16,7 @@ class MTGController: UIViewController {
     private let url = "https://api.magicthegathering.io/v1/cards"
     private var selectedCard: DisplayableProtocol?
 
-    private var MTGView: MTGView? {
+    private var magicTheGatheringView: MTGView? {
         guard isViewLoaded else { return nil }
         return view as? MTGView
     }
@@ -25,7 +25,7 @@ class MTGController: UIViewController {
 
     override func loadView() {
         super.loadView()
-        view = MTGView
+        view = MTGView()
     }
 
     override func viewDidLoad() {
@@ -38,8 +38,8 @@ class MTGController: UIViewController {
 
     private func configureView() {
         title = "Magic The Gathering Cards"
-        MTGView?.tableView.delegate = self
-        MTGView?.tableView.dataSource = self
+        magicTheGatheringView?.tableView.delegate = self
+        magicTheGatheringView?.tableView.dataSource = self
     }
 }
 
@@ -53,7 +53,7 @@ extension MTGController {
                 guard let data = response.value else { return }
                 let cards = data.all
                 self.cards = cards
-                self.MTGView?.tableView.reloadData()
+                self.magicTheGatheringView?.tableView.reloadData()
             }
     }
 }

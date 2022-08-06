@@ -64,7 +64,7 @@ class MTGTableViewCell: UITableViewCell {
 
 extension MTGTableViewCell {
     enum Metrics {
-        static let nameLabelFontSize: CGFloat = 17
+        static let nameLabelFontSize: CGFloat = 18
         static let manaCostLabelFontSize: CGFloat = 14
 
         static let nameLabelTopOffset = 15

@@ -16,7 +16,6 @@
 		5509B3D9289D4E16006BE63B /* DetailMTGCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5509B3D8289D4E16006BE63B /* DetailMTGCardView.swift */; };
 		559BE03F289D3DC5000376DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BE03E289D3DC5000376DE /* AppDelegate.swift */; };
 		559BE041289D3DC5000376DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BE040289D3DC5000376DE /* SceneDelegate.swift */; };
-		559BE046289D3DC5000376DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559BE044289D3DC5000376DE /* Main.storyboard */; };
 		559BE048289D3DC5000376DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559BE047289D3DC5000376DE /* Assets.xcassets */; };
 		559BE04B289D3DC5000376DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559BE049289D3DC5000376DE /* LaunchScreen.storyboard */; };
 		55AE8EED289D5716006D298F /* MTGController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AE8EEC289D5716006D298F /* MTGController.swift */; };
@@ -33,7 +32,6 @@
 		559BE03B289D3DC5000376DE /* HW25-AndreyOala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW25-AndreyOala.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		559BE03E289D3DC5000376DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		559BE040289D3DC5000376DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		559BE045289D3DC5000376DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		559BE047289D3DC5000376DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		559BE04A289D3DC5000376DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		559BE04C289D3DC5000376DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 				5509B3CC289D4721006BE63B /* Model */,
 				5509B3CB289D4711006BE63B /* View */,
 				5509B3CA289D46BC006BE63B /* Controller */,
-				559BE044289D3DC5000376DE /* Main.storyboard */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -238,7 +235,6 @@
 			files = (
 				559BE04B289D3DC5000376DE /* LaunchScreen.storyboard in Resources */,
 				559BE048289D3DC5000376DE /* Assets.xcassets in Resources */,
-				559BE046289D3DC5000376DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +303,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		559BE044289D3DC5000376DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				559BE045289D3DC5000376DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		559BE049289D3DC5000376DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -450,10 +438,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G56UY8T9JR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HW25-AndreyOala/Info.plist";
+				INFOPLIST_FILE = "HW25-AndreyOala/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,10 +466,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G56UY8T9JR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HW25-AndreyOala/Info.plist";
+				INFOPLIST_FILE = "HW25-AndreyOala/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

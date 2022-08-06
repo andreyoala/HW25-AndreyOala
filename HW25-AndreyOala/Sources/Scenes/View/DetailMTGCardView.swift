@@ -176,10 +176,10 @@ class DetailMTGCardView: UIView {
 
 extension DetailMTGCardView {
     enum Metrics {
-        static let nameLabelFontSize: CGFloat = 22
+        static let nameLabelFontSize: CGFloat = 24
         static let primaryFontSize: CGFloat = 14
 
-        static let primaryTopOffset = 15
+        static let primaryTopOffset = 17
         static let primaryLeftOffset = 15
         static let primaryRightOffset = -20
     }
